@@ -12,7 +12,7 @@ function Header() {
                      {/*    <link to="/">Home</link>
                         <link to="/trending">Fav List</link> */}
 
-                         <Nav.Link href="/trending">Home</Nav.Link> 
+                         <Nav.Link href="/">Home</Nav.Link> 
                       <Nav.Link href="/getMovies">Fav List</Nav.Link>
  
                     </Nav>

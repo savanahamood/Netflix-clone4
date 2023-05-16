@@ -1,3 +1,4 @@
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FavList from './components/FavList';
@@ -11,7 +12,7 @@ function App() {
         <>
             <Header />
             <Routes>
-                <Route path="/trending" element={<MovieList />} /> 
+                <Route path="/" element={<MovieList />} /> 
                 <Route path="/getMovies" element={<FavList />} />
 
             </Routes>
