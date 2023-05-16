@@ -25,7 +25,7 @@ function DeleteModal(props){
             }; */
             console.log("sssssss");
             const axiosRes = await axios.delete(serverUrl);
-
+            console.log(axiosRes)
 
             props.handleClose();
            // props.takeNewArrFromDeleteChild(axiosRes.data);

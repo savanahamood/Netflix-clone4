@@ -3,12 +3,12 @@ import Modal from 'react-bootstrap/Modal';
 import Image from 'react-bootstrap/Image';
 import React, { useState } from 'react';
 import axios from 'axios';
-import MovieList from './MovieList';
+//import MovieList from './MovieList';
 
 
 function ModalMovie(props) {
      const { showFlag, handleClose, movieData } = props;
-    const [Opinion, setOpinion] = useState('');
+   // const [Opinion, setOpinion] = useState('');
     const handleSubmit = async () => {
         try {
 

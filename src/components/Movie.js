@@ -7,17 +7,17 @@ import ModalMovie from './ModalMovie';
 import { useState } from 'react';
 import UpdateModal from './UpdateModal';
 import DeleteModal from './DeleteModal';
-import MovieList from './MovieList';
+//import MovieList from './MovieList';
 function Movie(props) {
     const [show, setShow] = useState(false);
     const [showUpdate, setShowUpdate] = useState(false);
     const [showDelete, setShowDelete] = useState(false);
     const [clickedMovie,setClickedMovie]=useState({});
-    const handleShow = (item) => {
+    /* const handleShow = (item) => {
         
         setShow(true);
         setClickedMovie(item);
-    }
+    } */
     const handleClose=()=>{
         setShow(false);
         setShowUpdate(false);

@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-import Movie from "./Movie"
+//import Movie from "./Movie"
 
 function MovieList(props){
     const [movList, setmoList] = useState([]);
